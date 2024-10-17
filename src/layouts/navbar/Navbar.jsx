@@ -4,8 +4,8 @@ import User from "../../components/userIcon/User";
 const Navbar = () => {
   return (
     <nav className="">
-      <div className="h-[140px] md:h-[100px] px-5 md:px-10 bg-white flex border-b-0 md:border-b">
-        <div className="max-w-[135px] lg:max-w-[250px] hidden flex-shrink-0 border-r md:flex items-center justify-center">
+      <div className="h-[140px] md:h-[99px] px-[26px] md:px-10 bg-white flex border-b-0 md:border-b">
+        <div className="max-w-[250px] hidden flex-shrink-0 border-r md:flex items-center justify-center">
           <img
             src="/nav/Logo.png"
             alt=""
@@ -18,7 +18,7 @@ const Navbar = () => {
             <img src="/common/menu.svg" alt="" />
           </div>
 
-          <h1 className="ml-5 mr-[10px] text-[20px] md:text-[28px] text-[#343C6A] font-semibold">
+          <h1 className="ml-10 mr-[10px] text-[20px] md:text-[28px] text-[#343C6A] font-semibold">
             Setting
           </h1>
 
@@ -27,20 +27,20 @@ const Navbar = () => {
               <SearchBar />
             </div>
 
-            <div className="cursor-pointer w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-[#F5F7FA]">
+            <div className="cursor-pointer w-[50px] h-[50px] rounded-[50%] flex items-center justify-center flex-shrink-0 bg-[#F5F7FA]">
               <img src="/nav/settings.svg" alt="" />
             </div>
 
-            <div className="cursor-pointer w-[50px] h-[50px] rounded-[50%] flex items-center justify-center bg-[#F5F7FA]">
+            <div className="cursor-pointer w-[50px] h-[50px] rounded-[50%] flex items-center justify-center flex-shrink-0 bg-[#F5F7FA]">
               <img src="/nav/bell.svg" alt="" />
             </div>
 
-            <div className="flex items-center justify-center w-[60px] h-[60px]">
+            <div className="flex items-center justify-center flex-shrink-0 w-[60px] h-[60px]">
               <User />
             </div>
           </div>
 
-          <div className="block md:hidden w-[55px] h-[55px] flex-shrink-0">
+          <div className="block md:hidden w-[35px] h-[35px] flex-shrink-0">
             <User />
           </div>
         </div>
