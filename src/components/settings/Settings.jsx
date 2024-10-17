@@ -131,8 +131,8 @@ const Settings = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-end mt-5">
-          <button className="bg-[#1814F3] py-[11px] md:py-[14px] w-full md:w-auto px-[74px] font-medium text-white rounded-[9px]">
+        <div className="w-full flex justify-end mt-5 px-4">
+          <button className="bg-[#1814F3] text-[15px] py-[11px] md:py-[14px] w-full md:w-auto px-[74px] font-medium text-white rounded-[9px]">
             Save
           </button>
         </div>
